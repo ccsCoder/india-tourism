@@ -1,0 +1,22 @@
+.map {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map > svg {
+  height: 90vh;
+}
+
+.svg-map-fragment {
+  fill: rgb(86,85,110);
+  stroke: rgb(247, 247, 247);
+  stroke-width: 0.997598px;
+}
+
+.svg-map-fragment:hover {
+  fill: rgb(224, 101, 101);
+  stroke-width: 1.2;
+}
