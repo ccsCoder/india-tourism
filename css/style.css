@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .map {
   height: 100vh;
   overflow: hidden;
@@ -7,16 +11,39 @@
 }
 
 .map > svg {
-  height: 90vh;
+  height: 100%;
+  width: auto;
 }
 
-.svg-map-fragment {
-  fill: rgb(86,85,110);
-  stroke: rgb(247, 247, 247);
-  stroke-width: 0.997598px;
+.green {
+  fill: #c1e0b2;
 }
+
+.magenta {
+  fill: #ebc5dd;
+}
+
+.pink {
+  fill: #fad0cf;
+}
+
+.yellow {
+  fill: #fdf9bb;
+}
+
+.red {
+  fill: #e06565;
+}
+
+
+.svg-map-fragment {
+  fill-opacity: 1;
+  stroke: #000000;
+  stroke-width: 0.2px;
+  stroke-opacity: 1;
+}
+
 
 .svg-map-fragment:hover {
   fill: rgb(224, 101, 101);
-  stroke-width: 1.2;
 }
